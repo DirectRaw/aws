@@ -21,8 +21,8 @@ jobs:
           base: dev
           filters: .github/filters.yml
   shared:
-      needs: changes
-      if: ${{ needs.changes.outputs.shared == 'true' }}
+ #     needs: changes
+ #     if: ${{ needs.changes.outputs.shared == 'true' }}
       runs-on: ubuntu-20.04
       name: "Shared Account Changes"
       steps:
@@ -31,8 +31,8 @@ jobs:
 
 
   pytest:
-      needs: [changes]
-      if: ${{ always() && needs.changes.outputs.serverless == 'true' }}
+#      needs: [changes]
+#      if: ${{ always() && needs.changes.outputs.serverless == 'true' }}
       runs-on: ubuntu-20.04
       name: "Pytest Unit Testing"
       steps:
