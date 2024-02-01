@@ -1,7 +1,7 @@
 name: Dev Testing Pipeline
 
 on:
-  pull_request:
+  push:
     branches: [dev]
 
 jobs:
