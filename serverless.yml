@@ -1,0 +1,21 @@
+org: ravilnagmetov
+app: aws-python-http-api-project
+service: aws-python-http-api-project
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  profile: default
+  region: eu-central-1
+  deploymentMethod: direct
+
+
+functions:
+  hello:
+    handler: hello.hello
+    name: hello
+    events:
+      - httpApi:
+          path: /
+          method: get
