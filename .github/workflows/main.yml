@@ -1,0 +1,90 @@
+name: Dev Deployment Pipeline
+
+on:
+  push:
+    branches: [dev]
+
+jobs:
+  changes:
+    runs-on: ubuntu-20.04
+    name: "Changes"
+    outputs:
+      terraform: ${{ steps.filter.outputs.terraform }}
+      serverless: ${{ steps.filter.outputs.serverless }}
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          base: dev
+          filters: .github/filters.yml
+
+  terraform:
+    needs: changes
+    if: ${{ needs.changes.outputs.terraform == 'true' }}
+    runs-on: ubuntu-20.04
+    name: "Terraform"
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v3
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+
+      - name: "Setup Terraform"
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 0.14.3
+
+      - name: "Terraform Init"
+        id: init
+        run: |
+          terraform init
+        working-directory: stack/terraform
+        env:
+          TF_WORKSPACE: "dev"
+
+      - name: "Terraform Apply"
+        id: apply
+        run: terraform apply -auto-approve
+        working-directory: stack/terraform
+        env:
+          TF_WORKSPACE: "dev"
+
+  serverless:
+    needs: [changes, terraform]
+    if: ${{ always() && needs.changes.outputs.serverless == 'true' }}
+    runs-on: ubuntu-20.04
+    name: "Serverless Deploy"
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v3
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+
+      - name: "Setup Node"
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: "Install Serverless"
+        run: npm install -g serverless@2.32.0
+      - name: "NPM Install"
+        run: npm install
+        working-directory: stack
+
+      - name: "Serverless Deploy"
+        run: sls deploy
+        working-directory: stack
+        env:
+          TF_WORKSPACE: "dev"
