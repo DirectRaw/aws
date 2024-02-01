@@ -1,0 +1,12 @@
+terraform:
+  - 'stack/terraform/**'
+serverless:
+  - 'stack/process_deltas/**'
+  - 'stack/get_data/**'
+  - 'stack/shared/**'
+  - 'stack/layers/**'
+  - 'stack/Dockerfile'
+  - 'stack/*.json'
+  - 'stack/*.txt'
+  - 'stack/*.yml'
+  - 'stack/*.py'
