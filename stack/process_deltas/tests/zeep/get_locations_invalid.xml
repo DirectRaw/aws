@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <SOAP-ENV:Fault xmlns:wd="urn:com.workday/bsvc">
+            <faultcode>SOAP-ENV:Client.validationError</faultcode>
+            <faultstring>Validation error occurred. Invalid ID value.  '00109' is not a valid ID value for type = 'Location_ID'</faultstring>
+            <detail>
+                <wd:Validation_Fault>
+                    <wd:Detail_Message>Invalid ID value.  '00109' is not a valid ID value for type = 'Location_ID'</wd:Detail_Message>
+                </wd:Validation_Fault>
+            </detail>
+        </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

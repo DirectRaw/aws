@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Put_Location_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v33.2">
+            <wd:Location_Reference>
+                <wd:ID wd:type="WID">a8a1436ea738015baa4c7dfed100ce02</wd:ID>
+                <wd:ID wd:type="Location_ID">B76102</wd:ID>
+            </wd:Location_Reference>
+        </wd:Put_Location_Response>
+    </env:Body>
+</env:Envelope>

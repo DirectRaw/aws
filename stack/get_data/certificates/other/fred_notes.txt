@@ -1,0 +1,32 @@
+
+Server Authentication
+	- the client needs to trust the AGWA CA cert
+	- then you will receive request to provide client certificate
+	- if you present self-signed certificate to acceptance
+
+	- if you get a certificate given by entrust
+		- it is already in PSE
+		- secure storage of the Certificate Authorities that we trust
+		- if you're coming with a certificate delivered by Entrust CA
+		- verify if we loaded
+		- denial possibility if it is not aligned - which is extremely probable
+		- it controls who gets in is who they say they are 
+		
+	- don't use the same cert between Acceptance/Production
+	- P&G is working with extremely important 
+
+	- if you establish https connectivity 
+	- the gateway will route the SOAP URL to PI
+	- the IP we received are the IP addresses of the Gateway, you need to access to this IP from AWS
+		- ports and ip
+	- the PI system will request username/password (then you're in SAP)
+
+	- we do not have certificate authentication at the layer at SOAP
+
+
+	- WE NEED STANDARD RFC from SAP
+	- check layer that is added on top
+	- Z RFC READ TABLE (maybe)
+	- don't think about using the direct one, only if user is present in 
+	- need to confirm what that it has a z in front on the RFC side
+	

@@ -1,0 +1,58 @@
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_TablesRead_Response xmlns:ns1='http://pg.com/xi/MDM/a2a/global/gedb'>
+            <FieldDetails>
+                <FieldName>WERKS</FieldName>
+                <FieldText>Plant</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>NAME1</FieldName>
+                <FieldText>Name</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>ZZSITETYPC</FieldName>
+                <FieldText>Global Site Type Code</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>LAND1</FieldName>
+                <FieldText>Country Key</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>STRAS</FieldName>
+                <FieldText>House number and street</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>ORT01</FieldName>
+                <FieldText>City</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>REGIO</FieldName>
+                <FieldText>Region (State, Province, County)</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>PSTLZ</FieldName>
+                <FieldText>Postal Code</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>SPRAS</FieldName>
+                <FieldText>Language Key</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>ADRNR</FieldName>
+                <FieldText>Address</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>ZZSITESTCD</FieldName>
+                <FieldText>Global Site Status Code</FieldText>
+            </FieldDetails>
+            <Data>
+                <Values>
+                    <Item>0009|6TH OF OCTOBER CITY PLANT     |P   |EG |INDUSTRIAL ZONE NUMBER 1      |6TH OCTOBER CITY         |SU |001101    |E|0000000001|A</Item>
+                    <Item>0014|PROSPECTIVE SITES-CINCI-AGILE |P   |US |2 PROCTER &#38; GAMBLE PLAZA  |CINCINNATI               |OH |45202     |E|0000000002|A</Item>
+                    <Item>0023|ST PETERSBURG TC-LONDA        |OFF |RU |BASKOV PEREYLOK 26A           |ST PETERSBURG            |   |          |E|0000000003|C</Item>
+                </Values>
+            </Data>
+        </ns1:MT_TablesRead_Response>
+    </SOAP:Body>
+</SOAP:Envelope>

@@ -1,0 +1,115 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Locations_Response wd:version="v34.0" 
+            xmlns:wd="urn:com.workday/bsvc">
+            <wd:Request_References>
+                <wd:Location_Reference>
+                    <wd:ID wd:type="WID">311cae4ba0ab01953f2f10326d0136e4</wd:ID>
+                    <wd:ID wd:type="Location_ID">0009</wd:ID>
+                </wd:Location_Reference>
+            </wd:Request_References>
+            <wd:Response_Filter>
+                <wd:As_Of_Effective_Date>2020-05-26</wd:As_Of_Effective_Date>
+                <wd:As_Of_Entry_DateTime>2020-05-26T14:10:28.000-07:00</wd:As_Of_Entry_DateTime>
+                <wd:Page>1</wd:Page>
+                <wd:Count>10</wd:Count>
+            </wd:Response_Filter>
+            <wd:Response_Group>
+                <wd:Include_Reference>1</wd:Include_Reference>
+                <wd:Include_Location_Data>1</wd:Include_Location_Data>
+            </wd:Response_Group>
+            <wd:Response_Results>
+                <wd:Total_Results>1</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>1</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Location>
+                    <wd:Location_Reference>
+                        <wd:ID wd:type="WID">311cae4ba0ab01953f2f10326d0136e4</wd:ID>
+                        <wd:ID wd:type="Location_ID">0009</wd:ID>
+                    </wd:Location_Reference>
+                    <wd:Location_Data>
+                        <wd:Location_ID>0009</wd:Location_ID>
+                        <wd:Location_Name>6TH OF OCTOBER CITY PLANT</wd:Location_Name>
+                        <wd:Location_Usage_Reference>
+                            <wd:ID wd:type="WID">46db411c4a5245fbb39834d8b2cba049</wd:ID>
+                            <wd:ID wd:type="Location_Usage_ID">BUSINESS SITE</wd:ID>
+                        </wd:Location_Usage_Reference>
+                        <wd:Location_Type_Reference>
+                            <wd:ID wd:type="WID">afe4be4b3001016f10c5e1b5e00f1101</wd:ID>
+                            <wd:ID wd:type="Location_Type_ID">Plant</wd:ID>
+                        </wd:Location_Type_Reference>
+                        <wd:Inactive>0</wd:Inactive>
+                        <wd:Latitude>0</wd:Latitude>
+                        <wd:Longitude>0</wd:Longitude>
+                        <wd:Altitude>0</wd:Altitude>
+                        <wd:Time_Profile_Reference>
+                            <wd:ID wd:type="WID">98f2c753f7a4014b7cc381a4ca0d3902</wd:ID>
+                            <wd:ID wd:type="Time_Profile_ID">Standard_Hours_37</wd:ID>
+                        </wd:Time_Profile_Reference>
+                        <wd:Locale_Reference>
+                            <wd:ID wd:type="WID">d9e499d0446c11de98360015c5e6daf6</wd:ID>
+                            <wd:ID wd:type="Locale_ID">ar_EG</wd:ID>
+                        </wd:Locale_Reference>
+                        <wd:Display_Language_Reference>
+                            <wd:ID wd:type="WID">da594226446c11de98360015c5e6daf6</wd:ID>
+                            <wd:ID wd:type="User_Language_ID">en_US</wd:ID>
+                        </wd:Display_Language_Reference>
+                        <wd:Default_Currency_Reference>
+                            <wd:ID wd:type="WID">3e15ee1dee644aca88c1898ce4ae52d8</wd:ID>
+                            <wd:ID wd:type="Currency_ID">EGP</wd:ID>
+                            <wd:ID wd:type="Currency_Numeric_Code">818</wd:ID>
+                        </wd:Default_Currency_Reference>
+                        <wd:Default_Job_Posting_Location_Reference>
+                            <wd:ID wd:type="WID">86f17601f21801d7a2cbad633501d241</wd:ID>
+                            <wd:ID wd:type="Location_ID">JPL_0336</wd:ID>
+                        </wd:Default_Job_Posting_Location_Reference>
+                        <wd:Contact_Data>
+                            <wd:Address_Data wd:Effective_Date="1900-01-01" wd:Address_Format_Type="Basic" wd:Formatted_Address="INDUSTRIAL ZONE NUMBER 1&amp;#xa;6th of October&amp;#xa;001101&amp;#xa;Egypt" wd:Defaulted_Business_Site_Address="0">
+                                <wd:Country_Reference>
+                                    <wd:ID wd:type="WID">d865e83093ad42319653b08e61f7db49</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-1_Alpha-2_Code">EG</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-1_Alpha-3_Code">EGY</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-1_Numeric-3_Code">818</wd:ID>
+                                </wd:Country_Reference>
+                                <wd:Last_Modified>2019-12-17T20:40:11.001-08:00</wd:Last_Modified>
+                                <wd:Address_Line_Data wd:Type="ADDRESS_LINE_1" wd:Descriptor="Address Line 1">INDUSTRIAL ZONE NUMBER 1</wd:Address_Line_Data>
+                                <wd:Country_Region_Reference>
+                                    <wd:ID wd:type="WID">a450b1dfe48c4d8ca506761498079890</wd:ID>
+                                    <wd:ID wd:type="Country_Region_ID">EGY-SU</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-2_Code">SU</wd:ID>
+                                </wd:Country_Region_Reference>
+                                <wd:Country_Region_Descriptor>6th of October</wd:Country_Region_Descriptor>
+                                <wd:Postal_Code>001101</wd:Postal_Code>
+                                <wd:Usage_Data wd:Public="1">
+                                    <wd:Type_Data wd:Primary="1">
+                                        <wd:Type_Reference>
+                                            <wd:ID wd:type="WID">4fae289a7fe541b098ca9448e462ff6b</wd:ID>
+                                            <wd:ID wd:type="Communication_Usage_Type_ID">BUSINESS</wd:ID>
+                                        </wd:Type_Reference>
+                                    </wd:Type_Data>
+                                </wd:Usage_Data>
+                                <wd:Number_of_Days>0</wd:Number_of_Days>
+                                <wd:Address_Reference>
+                                    <wd:ID wd:type="WID">311cae4ba0ab01461ca914326d0138e4</wd:ID>
+                                    <wd:ID wd:type="Address_ID">ADDRESS_REFERENCE-6-2</wd:ID>
+                                </wd:Address_Reference>
+                                <wd:Address_ID>ADDRESS_REFERENCE-6-2</wd:Address_ID>
+                            </wd:Address_Data>
+                        </wd:Contact_Data>
+                        <wd:Integration_ID_Data>
+                            <wd:ID wd:System_ID="WD-I">216$2</wd:ID>
+                            <wd:ID wd:System_ID="WD-WID">311cae4ba0ab01953f2f10326d0136e4</wd:ID>
+                        </wd:Integration_ID_Data>
+                        <wd:Location_Hierarchy_Reference>
+                            <wd:ID wd:type="WID">311cae4ba0ab01718a62127de1000c03</wd:ID>
+                            <wd:ID wd:type="Organization_Reference_ID">EG</wd:ID>
+                        </wd:Location_Hierarchy_Reference>
+                    </wd:Location_Data>
+                </wd:Location>
+            </wd:Response_Data>
+        </wd:Get_Locations_Response>
+    </env:Body>
+</env:Envelope>

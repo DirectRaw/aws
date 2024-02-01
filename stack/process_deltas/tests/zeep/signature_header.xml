@@ -1,0 +1,52 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>HW/Umb780Y/+IDE6p6oojANBe6yacaLATsdAD7uK6Nk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>vhsmT2zNOblCRzokx9DjjHMNKyCaTGVei5v1AG2GN5sdFV+H1dsx3YZ/6T84Pnhn
+xEvJKQzNLLZox+JLmTpYdMxZlbzgmG7d8+yPg6gj36uWqGCjD6HApc4hkl4BmVnG
+AToc2Zb6+a1OvfVNbbGTStddtiFQi33dG2vEA2TIKNG0KRCHHlUQX8qyxNLYCC7t
+WRsJbifov74vp9a1imtjtpeiW7O/ecxf3SeCL/skr2prZzM1RSkzgQHddJjL0wUo
+PjLtcf0sIin3TLN+cxehiKcLf5lAr92smuK0k8CDzDY/t3+/edfbdB/pxzTmF2ng
+1kkpqkXAzaVGaCvZ57houg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509IssuerSerial>
+<X509IssuerName>emailAddress=info@python-zeep.org,CN=www.python-zeep.org,O=Michael van Tellingen,L=Utrecht,ST=Utrecht,C=NL</X509IssuerName>
+<X509SerialNumber>12934907582145619385</X509SerialNumber>
+</X509IssuerSerial>
+<X509Certificate>MIIEqjCCA5KgAwIBAgIJALOCBen0S+W5MA0GCSqGSIb3DQEBBQUAMIGUMQswCQYD
+VQQGEwJOTDEQMA4GA1UECBMHVXRyZWNodDEQMA4GA1UEBxMHVXRyZWNodDEeMBwG
+A1UEChMVTWljaGFlbCB2YW4gVGVsbGluZ2VuMRwwGgYDVQQDExN3d3cucHl0aG9u
+LXplZXAub3JnMSMwIQYJKoZIhvcNAQkBFhRpbmZvQHB5dGhvbi16ZWVwLm9yZzAe
+Fw0xNzAxMjUxOTI3NTJaFw0yNzAxMjMxOTI3NTJaMIGUMQswCQYDVQQGEwJOTDEQ
+MA4GA1UECBMHVXRyZWNodDEQMA4GA1UEBxMHVXRyZWNodDEeMBwGA1UEChMVTWlj
+aGFlbCB2YW4gVGVsbGluZ2VuMRwwGgYDVQQDExN3d3cucHl0aG9uLXplZXAub3Jn
+MSMwIQYJKoZIhvcNAQkBFhRpbmZvQHB5dGhvbi16ZWVwLm9yZzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAMq1sZUbZwE+6tiIFhGkFAsBvtIDbqkzT1It
+3y2f+1yO5TgXpk092HgmXO320y6wAR/JeDRHVxufAhWvzJHbJtOV7eBt2r62E/gj
+WQN7Tn+Nk7BiAef1b6nfS0uLoQVKNqqnE1M9VQPIz+wimNuXavESxHdYMN5S4zxq
+mGuvbFJBGMwAQriXz/cVBMki3nJcVsfpMtj6fAAFz6Q7ZRnW/a7M8WIUibXHvyhL
+G2amgkPWtmQCXhWriYlLzgzzYoLPL1ECxjWB3JhJuEr1ZEkoL6SnpAJNYAudTqi2
+MqafHPdep9QxtjwuW/ZE4+plF5AaGvY41iUGJBPMxucG2jO8QBsCAwEAAaOB/DCB
++TAdBgNVHQ4EFgQUxd12m9nIS0QO4uIPRy7oerPyVygwgckGA1UdIwSBwTCBvoAU
+xd12m9nIS0QO4uIPRy7oerPyVyihgZqkgZcwgZQxCzAJBgNVBAYTAk5MMRAwDgYD
+VQQIEwdVdHJlY2h0MRAwDgYDVQQHEwdVdHJlY2h0MR4wHAYDVQQKExVNaWNoYWVs
+IHZhbiBUZWxsaW5nZW4xHDAaBgNVBAMTE3d3dy5weXRob24temVlcC5vcmcxIzAh
+BgkqhkiG9w0BCQEWFGluZm9AcHl0aG9uLXplZXAub3JnggkAs4IF6fRL5bkwDAYD
+VR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEAHTUp/i9FYbvl86By7EvMlZeK
+v6I38IYcrIGzDdbrk8KkilYv7p2Ll8gUJYRFj96iX6Uvn0ACTutFJW9xE2ytBMOu
+UurTBpcpk8k368gfO/fGVi6HzjyFqTnhLkmd3CADIzPN/yg5j2q+mgA3ys6wISBR
+aDJR2jGt9sTAkAwkVJdDCFkCwyRfB28mBRnI5SLeR5vQyLT97THPma39xR3FaqYv
+h2q3coXBnaOOcuigiKyIynhJtXH42XlN3TM23b9NK2Oep2e51pxst3uohlDGmB/W
+uzx/hG+kNxy9D+Ms7qNL9+i4nHFOoR034RB/NGTChzTxq2JcXIKPWIo2tslNsg==</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature><wsse:UsernameToken><wsse:Username>wd_username@wd_tenant</wsse:Username></wsse:UsernameToken></wsse:Security></soap-env:Header><soap-env:Body xmlns:ns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" ns1:Id="id-a68ebeb5-d297-430c-aa0d-100db40ba4fb"><ns0:Put_Location_Request xmlns:ns0="urn:com.workday/bsvc" ns0:version="v1.0"><ns0:Location_Data><ns0:Location_ID>0000</ns0:Location_ID><ns0:Location_Name>SITE NAME</ns0:Location_Name><ns0:Location_Usage_Reference><ns0:ID ns0:type="Location_Usage_ID">BUSINESS SITE</ns0:ID></ns0:Location_Usage_Reference><ns0:Location_Type_Reference><ns0:ID ns0:type="Location_Type_ID">TYPE</ns0:ID></ns0:Location_Type_Reference><ns0:Inactive>false</ns0:Inactive><ns0:Time_Profile_Reference><ns0:ID ns0:type="Time_Profile_ID">Standard_Hours_40</ns0:ID></ns0:Time_Profile_Reference><ns0:Display_Language_Reference><ns0:ID ns0:type="User_Language_ID">en_US</ns0:ID></ns0:Display_Language_Reference><ns0:Contact_Data><ns0:Address_Data><ns0:Country_Reference><ns0:ID ns0:type="ISO_3166-1_Alpha-2_Code">US</ns0:ID></ns0:Country_Reference><ns0:Address_Line_Data ns0:Type="Address_Line_1">ADDRESS LINE 1</ns0:Address_Line_Data><ns0:Address_Line_Data ns0:Type="Address_Line_2">ADDRESS LINE 2</ns0:Address_Line_Data><ns0:Municipality>CITY</ns0:Municipality><ns0:Submunicipality_Data ns0:Type="CITY_SUBDIVISION_1">CITY SUBDIVISION 1</ns0:Submunicipality_Data><ns0:Submunicipality_Data ns0:Type="REGION_SUBDIVISION_1">REGION SUBDIVISION 1</ns0:Submunicipality_Data><ns0:Country_Region_Reference><ns0:ID ns0:type="ISO_3166-2_Code">SU</ns0:ID></ns0:Country_Region_Reference><ns0:Postal_Code>00000</ns0:Postal_Code><ns0:Usage_Data ns0:Public="true"><ns0:Type_Data ns0:Primary="true"><ns0:Type_Reference><ns0:ID ns0:type="Communication_Usage_Type_ID">BUSINESS</ns0:ID></ns0:Type_Reference></ns0:Type_Data></ns0:Usage_Data></ns0:Address_Data></ns0:Contact_Data><ns0:Location_Hierarchy_Reference><ns0:ID ns0:type="Organization_Reference_ID">0000</ns0:ID></ns0:Location_Hierarchy_Reference></ns0:Location_Data></ns0:Put_Location_Request></soap-env:Body></soap-env:Envelope>

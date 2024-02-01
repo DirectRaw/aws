@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Put_Cost_Center_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v34.2">
+            <wd:Cost_Center_Reference>
+                <wd:ID wd:type="WID">bf22395b296e01400f2e7cecfd015029</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">007_YB</wd:ID>
+                <wd:ID wd:type="Cost_Center_Reference_ID">007_YB</wd:ID>
+            </wd:Cost_Center_Reference>
+        </wd:Put_Cost_Center_Response>
+    </env:Body>
+</env:Envelope>

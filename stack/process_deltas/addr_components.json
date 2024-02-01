@@ -1,0 +1,1227 @@
+{
+    "AF": {
+        "country": "Afghanistan",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "AX": {
+        "country": "\u00c5land Islands",
+        "required": ["Address Line 1", "City Subdivision 1", "Postal Code"],
+        "fixes": []
+    },
+    "AL": {
+        "country": "Albania",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "DZ": {
+        "country": "Algeria",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "AS": {
+        "country": "American Samoa",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "AD": {
+        "country": "Andorra",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "AO": {
+        "country": "Angola",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "AI": {
+        "country": "Anguilla",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "AG": {
+        "country": "Antigua and Barbuda",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "AR": {
+        "country": "Argentina",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "AM": {
+        "country": "Armenia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "AW": {
+        "country": "Aruba",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "AU": {
+        "country": "Australia",
+        "required": ["Address Line 1", "City", "Postal Code", "Region"],
+        "fixes": []
+    },
+    "AE": {
+        "country": "United Arab Emirates",
+        "required": ["Region", "Address Line 1"],
+        "fixes": ["remove city", "remove postal code"]
+    },
+    "AT": {
+        "country": "Austria",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "AZ": {
+        "country": "Azerbaijan",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "BS": {
+        "country": "Bahamas",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BH": {
+        "country": "Bahrain",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BD": {
+        "country": "Bangladesh",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BB": {
+        "country": "Barbados",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BY": {
+        "country": "Belarus",
+        "required": ["City", "Address Line 1", "Postal Code"],
+        "fixes": []
+    },
+    "BE": {
+        "country": "Belgium",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "BZ": {
+        "country": "Belize",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BJ": {
+        "country": "Benin",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BM": {
+        "country": "Bermuda",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "BT": {
+        "country": "Bhutan",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BO": {
+        "country": "Bolivia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BQ": {
+        "country": "Bonaire, Sint Eustatius, and Saba",
+        "required": ["Address Line 1"],
+        "fixes": []
+    },
+    "BA": {
+        "country": "Bosnia and Herzegovina",
+        "required": ["Address Line 1", "Postal Code"],
+        "fixes": []
+    },
+    "BW": {
+        "country": "Botswana",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BR": {
+        "country": "Brazil",
+        "required": ["Address Line 1", "City", "Postal Code", "Region"],
+        "fixes": []
+    },
+    "IO": {
+        "country": "British Indian Ocean Territory",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "VG": {
+        "country": "British Virgin Islands",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BN": {
+        "country": "Brunei",
+        "required": ["City"],
+        "fixes": []
+    },
+    "BG": {
+        "country": "Bulgaria",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "BF": {
+        "country": "Burkina Faso",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "BI": {
+        "country": "Burundi",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CV": {
+        "country": "Cabo Verde",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "KH": {
+        "country": "Cambodia",
+        "required": ["Address Line 1", "Region"],
+        "fixes": []
+    },
+    "CM": {
+        "country": "Cameroon",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CA": {
+        "country": "Canada",
+        "required": ["Address Line 1", "Region", "Postal Code", "City"],
+        "fixes": []
+    },
+    "KY": {
+        "country": "Cayman Islands",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CF": {
+        "country": "Central African Republic",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TD": {
+        "country": "Chad",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CL": {
+        "country": "Chile",
+        "required": ["Address Line 1", "City", "Region"],
+        "fixes": []
+    },
+    "CC": {
+        "country": "Cocos (Keeling) Islands",
+        "required": ["Region", "Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "CN": {
+        "country": "China",
+        "required": ["Address Line 1", "Postal Code", "Region"],
+        "fixes": []
+    },
+    "CX": {
+        "country": "Christmas Island",
+        "required": ["Address Line 1", "City", "Postal Code", "Region"],
+        "fixes": []
+    },
+    "CO": {
+        "country": "Colombia",
+        "required": ["Address Line 1", "City", "Region", "Postal Code"],
+        "fixes": []
+    },
+    "KM": {
+        "country": "Comoros",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CG": {
+        "country": "Congo",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CD": {
+        "country": "Congo, Democratic Republic of the",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CK": {
+        "country": "Cook Islands",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CR": {
+        "country": "Costa Rica",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "CI": {
+        "country": "C\u00f4te d'Ivoire",
+        "required": ["Address Line 1", "Region Subdivision 1", "Postal Code"],
+        "fixes": []
+    },
+    "HR": {
+        "country": "Croatia",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "CU": {
+        "country": "Cuba",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CW": {
+        "country": "Cura\u00e7ao",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CY": {
+        "country": "Cyprus",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "CZ": {
+        "country": "Czechia",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "DK": {
+        "country": "Denmark",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "DJ": {
+        "country": "Djibouti",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "DM": {
+        "country": "Dominica",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "DO": {
+        "country": "Dominican Republic",
+        "required": ["Address Line 1", "Region", "City"],
+        "fixes": []
+    },
+    "EC": {
+        "country": "Ecuador",
+        "required": ["Address Line 1", "City"],
+        "fixes": ["remove region"]
+    },
+    "EG": {
+        "country": "Egypt",
+        "required": ["Address Line 1", "Region"],
+        "fixes": ["remove city"]
+    },
+    "SV": {
+        "country": "El Salvador",
+        "required": ["Address Line 1", "Region"],
+        "fixes": []
+    },
+    "GT": {
+        "country": "Guatemala",
+        "required": ["Region", "Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "GQ": {
+        "country": "Equatorial Guinea",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "ER": {
+        "country": "Eritrea",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "EE": {
+        "country": "Estonia",
+        "required": ["Address Line 1", "Region Subdivision 1"],
+        "fixes": ["remove city", "add city into region subdivision 1", "remove region"]
+    },
+    "SZ": {
+        "country": "Eswatini",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "ET": {
+        "country": "Ethiopia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "FK": {
+        "country": "Falkland Islands",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "FO": {
+        "country": "Faroe Islands",
+        "required": ["City"],
+        "fixes": []
+    },
+    "FJ": {
+        "country": "Fiji",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "FI": {
+        "country": "Finland",
+        "required": ["Address Line 1", "City Subdivision 1", "Postal Code"],
+        "fixes": ["remove city", "add city into city subdivision 1", "remove region"]
+    },
+    "FR": {
+        "country": "France",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "GF": {
+        "country": "French Guiana",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "PF": {
+        "country": "French Polynesia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GA": {
+        "country": "Gabon",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GM": {
+        "country": "Gambia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GE": {
+        "country": "Georgia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "DE": {
+        "country": "Germany",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "GH": {
+        "country": "Ghana",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GI": {
+        "country": "Gibraltar",
+        "required": ["Address Line 1"],
+        "fixes": []
+    },
+    "GR": {
+        "country": "Greece",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "GL": {
+        "country": "Greenland",
+        "required": ["Address Line 1", "Postal Code"],
+        "fixes": []
+    },
+    "GD": {
+        "country": "Grenada",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GP": {
+        "country": "Guadeloupe",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GU": {
+        "country": "Guam",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "IT": {
+        "country": "Italy",
+        "required": ["Region", "Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "GG": {
+        "country": "Guernsey",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GN": {
+        "country": "Guinea",
+        "required": ["Postal Code", "City"],
+        "fixes": []
+    },
+    "GW": {
+        "country": "Guinea-Bissau",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "GY": {
+        "country": "Guyana",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "HT": {
+        "country": "Haiti",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "VA": {
+        "country": "Holy See (Vatican City State)",
+        "required": ["Address Line 1"],
+        "fixes": []
+    },
+    "HN": {
+        "country": "Honduras",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "HK": {
+        "country": "Hong Kong",
+        "required": ["City", "Address Line 1"],
+        "fixes": ["remove region"]
+    },
+    "HU": {
+        "country": "Hungary",
+        "required": ["City", "Address Line 2", "Postal Code"],
+        "fixes": ["remove address line 1", "copy address line 1 into address line 2"]
+    },
+    "IS": {
+        "country": "Iceland",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "IN": {
+        "country": "India",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "ID": {
+        "country": "Indonesia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "IR": {
+        "country": "Iran",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "IQ": {
+        "country": "Iraq",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "IE": {
+        "country": "Ireland",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "IM": {
+        "country": "Isle of Man",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "IL": {
+        "country": "Israel",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "JP": {
+        "country": "Japan",
+        "required": ["Region", "Postal Code", "City", "Address Line 1"],
+        "fixes": []
+    },
+    "JM": {
+        "country": "Jamaica",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "JE": {
+        "country": "Jersey",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "JO": {
+        "country": "Jordan",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "KZ": {
+        "country": "Kazakhstan",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "KE": {
+        "country": "Kenya",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "KI": {
+        "country": "Kiribati",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "KP": {
+        "country": "Korea, Democratic People's Republic of",
+        "required": ["City", "Region Subdivision 1", "Address Line 1"],
+        "fixes": []
+    },
+    "KR": {
+        "country": "Korea, Republic of",
+        "required": ["City", "Address Line 1", "Region"],
+        "fixes": []
+    },
+    "XK": {
+        "country": "Kosovo",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "KW": {
+        "country": "Kuwait",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "KG": {
+        "country": "Kyrgyzstan",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "LA": {
+        "country": "Laos",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "LV": {
+        "country": "Latvia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "LB": {
+        "country": "Lebanon",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "LS": {
+        "country": "Lesotho",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "LR": {
+        "country": "Liberia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "LY": {
+        "country": "Libya",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "LI": {
+        "country": "Liechtenstein",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "LT": {
+        "country": "Lithuania",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "LU": {
+        "country": "Luxembourg",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "MO": {
+        "country": "Macao",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MK": {
+        "country": "Macedonia, the Former Yugoslav Republic of",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "MG": {
+        "country": "Madagascar",
+        "required": ["Address Line 1", "Postal Code"],
+        "fixes": []
+    },
+    "MW": {
+        "country": "Malawi",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MY": {
+        "country": "Malaysia",
+        "required": ["Address Line 1", "Postal Code", "City", "Region"],
+        "fixes": []
+    },
+    "MV": {
+        "country": "Maldives",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "ML": {
+        "country": "Mali",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MT": {
+        "country": "Malta",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MH": {
+        "country": "Marshall Islands",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "MQ": {
+        "country": "Martinique",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MR": {
+        "country": "Mauritania",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MU": {
+        "country": "Mauritius",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "YT": {
+        "country": "Mayotte",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MX": {
+        "country": "Mexico",
+        "required": ["Address Line 1", "City Subdivision 1", "Postal Code", "City"],
+        "fixes": ["remove region"]
+    },
+    "FM": {
+        "country": "Micronesia, Federated States of",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "MD": {
+        "country": "Moldova",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "MC": {
+        "country": "Monaco",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "MN": {
+        "country": "Mongolia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "ME": {
+        "country": "Montenegro",
+        "required": ["Address Line 1", "Postal Code"],
+        "fixes": []
+    },
+    "MS": {
+        "country": "Montserrat",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MA": {
+        "country": "Morocco",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "MZ": {
+        "country": "Mozambique",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MM": {
+        "country": "Myanmar",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "NA": {
+        "country": "Namibia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "NR": {
+        "country": "Nauru",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "NP": {
+        "country": "Nepal",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "NL": {
+        "country": "Netherlands",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "NC": {
+        "country": "New Caledonia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "NZ": {
+        "country": "New Zealand",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "NI": {
+        "country": "Nicaragua",
+        "required": ["Address Line 1", "City", "Region"],
+        "fixes": []
+    },
+    "NG": {
+        "country": "Nigeria",
+        "required": ["Region", "Address Line 1", "City"],
+        "fixes": []
+    },
+    "NE": {
+        "country": "Niger",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "NU": {
+        "country": "Niue",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "NF": {
+        "country": "Norfolk Island",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "MP": {
+        "country": "Northern Mariana Islands",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "NO": {
+        "country": "Norway",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "OM": {
+        "country": "Oman",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "PK": {
+        "country": "Pakistan",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "PW": {
+        "country": "Palau",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "PS": {
+        "country": "Palestine",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "PA": {
+        "country": "Panama",
+        "required": ["Address Line 1", "Region", "City"],
+        "fixes": []
+    },
+    "PG": {
+        "country": "Papua New Guinea",
+        "required": ["Address Line 1", "City", "Postal Code", "Region"],
+        "fixes": []
+    },
+    "PE": {
+        "country": "Peru",
+        "required": ["Region", "Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "PY": {
+        "country": "Paraguay",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "PH": {
+        "country": "Philippines",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "PN": {
+        "country": "Pitcairn Islands",
+        "required": ["Address Line 1"],
+        "fixes": []
+    },
+    "PL": {
+        "country": "Poland",
+        "required": ["City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "PT": {
+        "country": "Portugal",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "PR": {
+        "country": "Puerto Rico (see United States of America)",
+        "required": ["Address Line 1", "City", "Region", "Postal Code"],
+        "fixes": ["set country to 'US'", "set region to 'PR'"]
+    },
+    "QA": {
+        "country": "Qatar",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "RE": {
+        "country": "Reunion",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "RO": {
+        "country": "Romania",
+        "required": ["Address Line 1", "City"],
+        "fixes": ["remove region"]
+    },
+    "RU": {
+        "country": "Russian Federation",
+        "required": ["Postal Code", "City"],
+        "fixes": []
+    },
+    "RW": {
+        "country": "Rwanda",
+        "required": ["Address Line 1", "City", "Region Subdivision 2", "Region Subdivision 1"],
+        "fixes": []
+    },
+    "BL": {
+        "country": "Saint Barthelemy",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SH": {
+        "country": "Saint Helena, Ascension and Tristan da Cunha",
+        "required": ["Address Line 1", "Region", "Postal Code"],
+        "fixes": []
+    },
+    "KN": {
+        "country": "Saint Kitts and Nevis",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "LC": {
+        "country": "Saint Lucia",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "MF": {
+        "country": "Saint Martin",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "PM": {
+        "country": "Saint Pierre and Miquelon",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "VC": {
+        "country": "Saint Vincent and the Grenadines",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "WS": {
+        "country": "Samoa",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SM": {
+        "country": "San Marino",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "ST": {
+        "country": "Sao Tome and Principe",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SA": {
+        "country": "Saudi Arabia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "SN": {
+        "country": "Senegal",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "RS": {
+        "country": "Serbia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "SC": {
+        "country": "Seychelles",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SL": {
+        "country": "Sierra Leone",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SG": {
+        "country": "Singapore",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "SX": {
+        "country": "Sint Maarten",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SK": {
+        "country": "Slovakia",
+        "required": ["Address Line 1", "Postal Code", "City Subdivision 1"],
+        "fixes": ["remove city", "add city into city subdivision 1"]
+    },
+    "SI": {
+        "country": "Slovenia",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "SB": {
+        "country": "Solomon Islands",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SO": {
+        "country": "Somalia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "ZA": {
+        "country": "South Africa",
+        "required": ["Address Line 1", "City Subdivision 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "SS": {
+        "country": "South Sudan",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "ES": {
+        "country": "Spain",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": ["remove region"]
+    },
+    "LK": {
+        "country": "Sri Lanka",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "SD": {
+        "country": "Sudan",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SR": {
+        "country": "Suriname",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "SJ": {
+        "country": "Svalbard and Jan Mayen",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "SE": {
+        "country": "Sweden",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "CH": {
+        "country": "Switzerland",
+        "required": ["Address Line 1", "Postal Code", "City", "Region"],
+        "fixes": []
+    },
+    "SY": {
+        "country": "Syria",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TW": {
+        "country": "Taiwan",
+        "required": ["Postal Code", "City", "Address Line 1", "Region"],
+        "fixes": []
+    },
+    "TJ": {
+        "country": "Tajikistan",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "TZ": {
+        "country": "Tanzania",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TH": {
+        "country": "Thailand",
+        "required": ["Address Line 1", "Region Subdivision 1", "Region", "Postal Code"],
+        "fixes": ["remove city"]
+    },
+    "TL": {
+        "country": "Timor-Leste",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TG": {
+        "country": "Togo",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TK": {
+        "country": "Tokelau",
+        "required": ["Address Line 1", "Region Subdivision 1"],
+        "fixes": []
+    },
+    "TO": {
+        "country": "Tonga",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TT": {
+        "country": "Trinidad and Tobago",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TN": {
+        "country": "Tunisia",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "TR": {
+        "country": "Turkey",
+        "required": ["City", "Address Line 1", "Postal Code"],
+        "fixes": []
+    },
+    "TM": {
+        "country": "Turkmenistan",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TC": {
+        "country": "Turks and Caicos Islands",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "TV": {
+        "country": "Tuvalu",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "VI": {
+        "country": "U. S. Virgin Islands",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "UG": {
+        "country": "Uganda",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "UA": {
+        "country": "Ukraine",
+        "required": ["Address Line 1", "Postal Code", "Region", "City"],
+        "fixes": []
+    },
+    "GB": {
+        "country": "United Kingdom",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": ["remove region"]
+    },
+    "UM": {
+        "country": "United States Minor Outlying Islands",
+        "required": ["Address Line 1", "Region"],
+        "fixes": []
+    },
+    "US": {
+        "country": "United States of America",
+        "required": ["Address Line 1", "City", "Region", "Postal Code"],
+        "fixes": []
+    },
+    "UY": {
+        "country": "Uruguay",
+        "required": ["Address Line 1", "Postal Code", "City", "Region"],
+        "fixes": []
+    },
+    "UZ": {
+        "country": "Uzbekistan",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "VU": {
+        "country": "Vanuatu",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "VE": {
+        "country": "Venezuela",
+        "required": ["Address Line 1", "City", "Postal Code", "Region"],
+        "fixes": []
+    },
+    "VN": {
+        "country": "Vietnam",
+        "required": ["Address Line 1", "City", "Region"],
+        "fixes": []
+    },
+    "WF": {
+        "country": "Wallis and Futuna",
+        "required": ["Address Line 1", "City", "Postal Code"],
+        "fixes": []
+    },
+    "EH": {
+        "country": "Western Sahara",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "YE": {
+        "country": "Yemen",
+        "required": ["Address Line 1", "City"],
+        "fixes": []
+    },
+    "ZM": {
+        "country": "Zambia",
+        "required": ["Address Line 1", "Postal Code", "City"],
+        "fixes": []
+    },
+    "ZW": {
+        "country": "Zimbabwe",
+        "required": ["Address Line 1", "Region"],
+        "fixes": []
+    }
+}

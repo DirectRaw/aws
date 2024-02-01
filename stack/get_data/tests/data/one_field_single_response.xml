@@ -1,0 +1,18 @@
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_TablesRead_Response xmlns:ns1='http://pg.com/xi/MDM/a2a/global/gedb'>
+            <FieldDetails>
+                <FieldName>GEBNR</FieldName>
+                <FieldText>Building Number</FieldText>
+            </FieldDetails>
+            <Data>
+                <Values>
+                    <Item>000901</Item>
+                    <Item>000902</Item>
+                    <Item>000905</Item>
+                </Values>
+            </Data>
+        </ns1:MT_TablesRead_Response>
+    </SOAP:Body>
+</SOAP:Envelope>

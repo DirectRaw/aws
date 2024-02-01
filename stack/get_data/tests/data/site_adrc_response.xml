@@ -1,0 +1,26 @@
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_TablesRead_Response xmlns:ns1='http://pg.com/xi/MDM/a2a/global/gedb'>
+            <FieldDetails>
+                <FieldName>ADDRNUMBER</FieldName>
+                <FieldText>Address number</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>STR_SUPPL3</FieldName>
+                <FieldText>Street 4</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>CITY2</FieldName>
+                <FieldText>District</FieldText>
+            </FieldDetails>
+            <Data>
+                <Values>
+                    <Item>0000000001|               CITY_SUBDIVISION_1|         REGION_SUBDIVISION_1</Item>
+                    <Item>0000000002|               CITY_SUBDIVISION_2|         REGION_SUBDIVISION_2</Item>
+                    <Item>0000000004|               CITY_SUBDIVISION_3|         REGION_SUBDIVISION_3</Item>
+                </Values>
+            </Data>
+        </ns1:MT_TablesRead_Response>
+    </SOAP:Body>
+</SOAP:Envelope>

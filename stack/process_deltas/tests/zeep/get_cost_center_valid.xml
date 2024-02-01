@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Cost_Centers_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v34.2">
+            <wd:Request_References>
+                <wd:Cost_Center_Reference>
+                    <wd:ID wd:type="WID">311cae4ba0ab01db216de7e670015f7f</wd:ID>
+                    <wd:ID wd:type="Organization_Reference_ID">5203913200</wd:ID>
+                    <wd:ID wd:type="Cost_Center_Reference_ID">5203913200</wd:ID>
+                </wd:Cost_Center_Reference>
+            </wd:Request_References>
+            <wd:Response_Group>
+                <wd:Include_Reference>0</wd:Include_Reference>
+                <wd:Include_Cost_Center_Data>1</wd:Include_Cost_Center_Data>
+                <wd:Include_Simple_Cost_Center_Data>0</wd:Include_Simple_Cost_Center_Data>
+            </wd:Response_Group>
+            <wd:Response_Results>
+                <wd:Total_Results>1</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>1</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Cost_Center>
+                    <wd:Cost_Center_Data wd:Effective_Date="2020-07-28">
+                        <wd:Organization_Data>
+                            <wd:ID>5203913200</wd:ID>
+                            <wd:Include_Organization_ID_in_Name>0</wd:Include_Organization_ID_in_Name>
+                            <wd:Organization_Name>JP SMO HR ADM MGMT</wd:Organization_Name>
+                            <wd:Organization_Code>5203913200</wd:Organization_Code>
+                            <wd:Include_Organization_Code_in_Name>1</wd:Include_Organization_Code_in_Name>
+                            <wd:Organization_Active>1</wd:Organization_Active>
+                            <wd:Availability_Date>1900-01-01</wd:Availability_Date>
+                            <wd:Organization_Visibility_Reference>
+                                <wd:ID wd:type="WID">9c875610c4fc496499e39741b6541dbc</wd:ID>
+                            </wd:Organization_Visibility_Reference>
+                            <wd:Integration_ID_Data>
+                                <wd:ID wd:System_ID="WD-I">2502$7409</wd:ID>
+                                <wd:ID wd:System_ID="WD-WID">311cae4ba0ab01db216de7e670015f7f</wd:ID>
+                            </wd:Integration_ID_Data>
+                        </wd:Organization_Data>
+                        <wd:Organization_Subtype_Reference>
+                            <wd:ID wd:type="WID">98f2c753f7a401461309cde2ca0d6927</wd:ID>
+                            <wd:ID wd:type="Organization_Subtype_ID">SRAP</wd:ID>
+                        </wd:Organization_Subtype_Reference>
+                        <wd:Organization_Container_Reference>
+                            <wd:ID wd:type="WID">311cae4ba0ab01cf350c8e4733011381</wd:ID>
+                            <wd:ID wd:type="Organization_Reference_ID">CS00000603</wd:ID>
+                            <wd:ID wd:type="Custom_Organization_Reference_ID">CS00000603</wd:ID>
+                        </wd:Organization_Container_Reference>
+                    </wd:Cost_Center_Data>
+                </wd:Cost_Center>
+            </wd:Response_Data>
+        </wd:Get_Cost_Centers_Response>
+    </env:Body>
+</env:Envelope>

@@ -1,0 +1,26 @@
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_TablesRead_Response xmlns:ns1='http://pg.com/xi/MDM/a2a/global/gedb'>
+            <FieldDetails>
+                <FieldName>GEBNR</FieldName>
+                <FieldText>Building Number</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>ZBLDGNAME</FieldName>
+                <FieldText>Building Name</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>LAND1</FieldName>
+                <FieldText>Country Key</FieldText>
+            </FieldDetails>
+            <Data>
+                <Values>
+                    <Item>000901|October 6 Plant               |EG</Item>
+                    <Item>001400|Rio de Janeiro Plant          |BR</Item>
+                    <Item>000000|Beijing Innovation Ctr-Tianzhu|CN</Item>                    <!-- This one won't have a site match-->
+                </Values>
+            </Data>
+        </ns1:MT_TablesRead_Response>
+    </SOAP:Body>
+</SOAP:Envelope>

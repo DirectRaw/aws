@@ -1,0 +1,28 @@
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_TablesRead_Response xmlns:ns1='http://pg.com/xi/MDM/a2a/global/gedb'>
+            <FieldDetails>
+                <FieldName>BUKRS</FieldName>
+                <FieldText>Company Code</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>BUTXT</FieldName>
+                <FieldText>Name of Company Code or Company</FieldText>
+            </FieldDetails>
+            <FieldDetails>
+                <FieldName>WAERS</FieldName>
+                <FieldText>Currency Key</FieldText>
+            </FieldDetails>
+            <Data>
+                <Values>
+                    <Item>001 |The P&#38;G Company          |USD</Item>
+                    <Item>002 |P&#38;G Manufacturing Co.    |USD</Item>
+                    <Item>003 |The P&#38;G Distributing LLC |USD</Item>
+                    <Item>004 |P&#38;G Productions Inc.     |USD</Item>
+                    <Item>542 |P&#38;G (EGYPT) IND &#38; COMM   |EGP</Item>
+                </Values>
+            </Data>
+        </ns1:MT_TablesRead_Response>
+    </SOAP:Body>
+</SOAP:Envelope>
