@@ -59,7 +59,7 @@ jobs:
           TF_WORKSPACE: "dev"
 
   serverless:
-    needs: [changes, terraform]
+#    needs: [changes, terraform]
     if: ${{ always() && needs.changes.outputs.serverless == 'true' }}
     runs-on: ubuntu-20.04
     name: "Serverless Deploy"
