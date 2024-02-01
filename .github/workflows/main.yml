@@ -90,7 +90,7 @@ jobs:
         run: aws s3 ls
 
       - name: "Serverless Deploy"
-        run: sls deploy
+        run: sls deploy function -f hello
         working-directory: stack
         env:
           TF_WORKSPACE: "dev"
