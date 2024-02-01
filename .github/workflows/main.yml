@@ -60,7 +60,7 @@ jobs:
 
   serverless:
 #    needs: [changes, terraform]
-    if: ${{ always() && needs.changes.outputs.serverless == 'true' }}
+#    if: ${{ always() && needs.changes.outputs.serverless == 'true' }}
     runs-on: ubuntu-20.04
     name: "Serverless Deploy"
     steps:
