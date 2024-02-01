@@ -10,6 +10,7 @@ provider:
   region: eu-central-1
   deploymentMethod: direct
 
+
 functions:
   hello:
     handler: hello.hello
