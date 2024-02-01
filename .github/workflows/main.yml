@@ -91,3 +91,6 @@ jobs:
         working-directory: stack
         env:
           TF_WORKSPACE: "dev"
+          aws-access-key-id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
+          aws-session-token: ${{ secrets.AWS_DEV_SESSION_TOKEN }}
