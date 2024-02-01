@@ -28,6 +28,9 @@ jobs:
       steps:
         - uses: actions/github-script@v6
           if: ${{ always() }}
+          with:
+            script: |
+              echo "TEST"
 
 
   pytest:
