@@ -21,8 +21,8 @@ jobs:
           filters: .github/filters.yml
 
   terraform:
-#    needs: changes
-#    if: ${{ needs.changes.outputs.terraform == 'true' }}
+    needs: changes
+    if: ${{ needs.changes.outputs.terraform == 'true' }}
     runs-on: ubuntu-20.04
     name: "Terraform"
     steps:
