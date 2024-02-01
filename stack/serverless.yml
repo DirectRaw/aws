@@ -4,10 +4,9 @@ service: aws-python-http-api-project
 
 provider:
   name: aws
-  runtime: python3.9
-  profile: default
+  runtime: python3.7
+  versionFunctions: false
   region: eu-central-1
-  deploymentMethod: direct
 
 
 functions:
