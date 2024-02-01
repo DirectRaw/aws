@@ -1,0 +1,15 @@
+[run]
+omit =
+    # omit anything in a test directory anywhere
+    */tests/*
+    */__init__.py
+    */env/*
+    */testenv/*
+    */manual_trigger.py
+    */scheduled_trigger.py
+    */helper.py
+    */manual_test_sap_po.py
+    */hello.py
+source = 
+    stack/process_deltas/*
+    stack/get_data/*
