@@ -9,6 +9,7 @@ provider:
   region: eu-central-1
 
 
+
 functions:
   hello:
     handler: hello.hello
