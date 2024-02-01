@@ -48,8 +48,7 @@ jobs:
         run: |
           terraform init
         working-directory: stack/terraform
-        env:
-          TF_WORKSPACE: "dev"
+
 
       - name: "Terraform Apply"
         id: apply
