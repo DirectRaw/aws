@@ -1,7 +1,6 @@
 org: ravilnagmetov
 app: aws-python-http-api-project
 service: aws-python-http-api-project
-frameworkVersion: '3'
 
 provider:
   name: aws
