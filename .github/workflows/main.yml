@@ -13,12 +13,21 @@ jobs:
       serverless: ${{ steps.filter.outputs.serverless }}
     steps:
       - name: Git checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - uses: dorny/paths-filter@v2
         id: filter
         with:
           base: dev
           filters: .github/filters.yml
+          
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release ${{ github.run_number }} 
 
   terraform:
     needs: changes
@@ -27,10 +36,10 @@ jobs:
     name: "Terraform"
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v2
+        uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
@@ -67,10 +76,10 @@ jobs:
     name: "Serverless Deploy"
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v2
+        uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_DEV_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_DEV_SECRET_ACCESS_KEY }}
@@ -84,6 +93,11 @@ jobs:
       
       - name: "Check node version"
         run: node --version
+
+      - name: "Setup Python"
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.7"  
 
       - name: "Install Serverless"
         run: npm install -g serverless
