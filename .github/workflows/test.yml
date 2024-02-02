@@ -21,8 +21,8 @@ jobs:
           base: dev
           filters: .github/filters.yml
   shared:
- #     needs: changes
- #     if: ${{ needs.changes.outputs.shared == 'true' }}
+      needs: changes
+      if: ${{ needs.changes.outputs.shared == 'true' }}
       runs-on: ubuntu-20.04
       name: "Shared Account Changes"
       steps:
@@ -48,7 +48,9 @@ jobs:
         - name: "Setup Python 3.7"
           uses: actions/setup-python@v3
           with:
-            python-version: "3.7"
+            python-version: "3.9"
+        - name: "Check python version"
+          run: python3 --version
   
         - name: "Download libxml for xmllsec"
           run: |
