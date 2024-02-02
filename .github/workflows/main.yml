@@ -89,7 +89,7 @@ jobs:
       - name: "Setup Node"
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+          node-version: "18.x"
       
       - name: "Check node version"
         run: node --version
@@ -97,7 +97,7 @@ jobs:
       - name: "Setup Python"
         uses: actions/setup-python@v2
         with:
-          python-version: "3.7"  
+          python-version: "3.9"  
 
       - name: "Install Serverless"
         run: npm install -g serverless
