@@ -78,15 +78,15 @@ jobs:
           aws-region: eu-central-1
 
       - name: "Setup Node"
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v1
         with:
-          node-version: "18.x"
+          node-version: "12.x"
       
       - name: "Check node version"
         run: node --version
 
       - name: "Install Serverless"
-        run: npm install -g serverless@2.32.0
+        run: npm install -g serverless
       - name: "NPM Install"
         run: npm install
         working-directory: stack
